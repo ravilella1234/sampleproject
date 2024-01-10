@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59995" started-at="2024-01-09T12:58:34Z" finished-at="2024-01-09T12:59:34Z">
+    <groups>
+      <group name="regression">
+        <method signature="TNG_002.amazon()[pri:0, instance:testng.TNG_002@7791a895]" name="amazon" class="testng.TNG_002"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TNG_002.amazon()[pri:0, instance:testng.TNG_002@7791a895]" name="amazon" class="testng.TNG_002"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test" duration-ms="59995" started-at="2024-01-09T12:58:34Z" finished-at="2024-01-09T12:59:34Z">
+      <class name="testng.TNG_002">
+        <test-method status="PASS" signature="start(java.lang.String)[pri:0, instance:testng.TNG_002@7791a895]" name="start" is-config="true" duration-ms="18907" started-at="2024-01-09T12:58:34Z" finished-at="2024-01-09T12:58:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="amazon()[pri:0, instance:testng.TNG_002@7791a895]" name="amazon" duration-ms="33673" started-at="2024-01-09T12:58:53Z" finished-at="2024-01-09T12:59:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amazon -->
+        <test-method status="PASS" signature="end()[pri:0, instance:testng.TNG_002@7791a895]" name="end" is-config="true" duration-ms="7304" started-at="2024-01-09T12:59:26Z" finished-at="2024-01-09T12:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- testng.TNG_002 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
